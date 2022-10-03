@@ -1,0 +1,141 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+
+body{
+  background-color:lightgray;
+}
+
+nav{
+  display:flex;
+  height:64px;
+  background-color: white;
+  max-height:64px;
+}
+
+nav > .main-menu{
+  list-style-type: none;
+  margin-left: 16px;
+}
+
+nav > .main-menu > li{
+  margin-right: 24px;
+  justify-content: flex-end;
+}
+
+nav > .logo-img{
+  margin-left: 24px;
+}
+
+
+
+.acadmey{
+  color: gray;
+  font-weight: bold;
+  margin:0px;
+}
+
+.colmar{
+  font-weight: bold;
+}
+
+
+.banner-img{
+  margin: 32px 24px 24px 32px;
+/*   float:left; */
+}
+
+.information{
+  margin: 32px 24px 24px 32px;
+  float:left;
+  background-color:white;
+}
+
+.orientation-imgh{
+  background-color:white;
+  margin: 16px 16px;
+}
+
+.orientation-img{
+
+}
+.oh1{
+/*   text-align:right */
+}
+
+.campush{
+  background-color:white;
+  margin: 16px 16px;
+}
+.c1{
+/*   text-align:right; */
+  
+}
+
+.information-guest-lecture{
+  margin:16px 16px;
+}
+
+footer {
+  margin: 24px;
+  padding: 16px;
+  color: white;
+  display:flex;
+  justify-content:space-between;
+}
+
+li{
+    display: inline-block;
+}
+
+
+button{
+  padding: 8px 60px;
+  background-color: #777;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+
+.informationp{
+   flex-wrap:wrap;
+   display: flex;
+}
+
+.information-main-img{
+  margin: 32px 24px 24px 32px;
+}
+
+.orientation-img{
+flex-direction:Column;
+  background-color:white;
+  clear:left;
+}
+
+/* card */
+.card {
+  margin:32px 72px 32px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  background-color:white;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.container {
+  padding: 2px 16px;
+  
+}
+
+.bg-white{
+  background-color:white;
+}
+
